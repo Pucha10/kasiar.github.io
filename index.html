@@ -7,7 +7,7 @@
     <style>
         body {
             margin: 0;
-            height: 100vh;
+            min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -21,11 +21,9 @@
             text-align: center;
             margin-bottom: 30px;
         }
-        table {
-            border-spacing: 20px;
-        }
         img {
-            width: 250px;
+            width: 300px;
+            margin: 15px 0; /* odstęp góra/dół */
             border-radius: 15px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
         }
@@ -33,12 +31,8 @@
 </head>
 <body>
     <h1>Cudowna strona dla Kasi!!!</h1>
-    <table>
-        <tr>
-            <td><img src="z1.jpg" alt="Zdjęcie 1"></td>
-            <td><img src="z2.jpg" alt="Zdjęcie 2"></td>
-            <td><img src="z3.jpg" alt="Zdjęcie 3"></td>
-        </tr>
-    </table>
+    <img src="z1.jpg" alt="Zdjęcie 1">
+    <img src="z2.jpg" alt="Zdjęcie 2">
+    <img src="z3.jpg" alt="Zdjęcie 3">
 </body>
 </html>
