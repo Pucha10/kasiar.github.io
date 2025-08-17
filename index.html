@@ -1,11 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kasia.pl</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #333;
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        table {
+            border-spacing: 20px; /* odstępy między zdjęciami */
+        }
+        img {
+            width: 250px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+    </style>
 </head>
 <body>
-    <h1> Działa!</h1>
+    <h1>Działa!</h1>
+    <table>
+        <tr>
+            <td><img src="z1.jpg" alt="Zdjęcie 1"></td>
+            <td><img src="z2.jpg" alt="Zdjęcie 2"></td>
+            <td><img src="z3.jpg" alt="Zdjęcie 3"></td>
+        </tr>
+    </table>
 </body>
 </html>
